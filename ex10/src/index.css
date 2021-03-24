@@ -1,0 +1,60 @@
+html,
+body {
+  min-height: fit-content;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 35%;
+  height: 100%;
+  border-right: 2px solid grey;
+}
+nav header {
+  text-align: center;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  padding: 10px;
+  font-weight: 600;
+}
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  border-top: 1px solid grey;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav img {
+  max-width: 100%;
+}
+/* Main adjusting  */
+main {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px 30px;
+}
+main header {
+  font-size: 1.75em;
+  font-family: "Cinzel", Georgia, Times, serif;
+}
+main strong {
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
+code {
+  display: block;
+  padding: 20px 65% 20px 10%;
+  background-color: rgb(238, 238, 238);
+}
